@@ -1,0 +1,13 @@
+Source: lmd-nomitigations
+Maintainer: lmd Linux <lmd.linux@gmail.com>
+Section: misc
+Priority: important
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: lmd-nomitigations
+Architecture: all
+Depends: lmd-desktop
+Description: Disable mitigations
+ Disable CPU and i915 mitigations
+ Not recommended for use in most situations
